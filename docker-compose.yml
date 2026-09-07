@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      MITIGATION_DRY_RUN: "true"
+      SIMULATION_MODE: "true"

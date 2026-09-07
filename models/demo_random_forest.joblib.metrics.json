@@ -1,0 +1,39 @@
+{
+  "dataset": "demo synthetic",
+  "rows": 800,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix": [
+    [
+      80,
+      0
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "features": [
+    "packets_per_second",
+    "bytes_per_second",
+    "packets_per_flow",
+    "bytes_per_flow",
+    "flow_duration",
+    "source_ip_frequency",
+    "destination_ip_frequency",
+    "unique_source_ips",
+    "unique_destination_ports",
+    "tcp_ratio",
+    "udp_ratio",
+    "icmp_ratio",
+    "syn_rate",
+    "ack_rate",
+    "syn_ack_ratio",
+    "average_packet_size",
+    "packet_size_variance",
+    "connection_rate",
+    "failed_short_connection_rate"
+  ]
+}
